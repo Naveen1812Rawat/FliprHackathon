@@ -1,0 +1,88 @@
+.points{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.raised-by{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+.as-on{
+    color: grey;
+    font-size: 15px;
+}
+
+.DayPoints{
+    display: flex;
+    justify-content: space-between;
+}
+
+.DayPoints p{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.line{
+    margin-left: 3%;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.418);
+    width: 94%;
+}
+
+.day-range h1{
+    color: grey;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.return-option{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 1px solid #00000010;
+    background-color: #00000002;
+    width: 90px;
+}
+
+@media screen and (min-width: 1024px){
+    .row{
+        margin-left: 30px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 950px){
+    .col{
+        width: 100%;
+    }
+    .day-range{
+        padding: 10px 0px;
+    }
+
+}
+
+@media screen and (min-width: 440px) and (max-width: 599px){
+    .row{
+        display: block;
+    }
+    .col{
+        padding: 10px 15px;
+        width: 100%;
+    }
+    .day-range{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width: 440px){
+    .row{
+        display: block;
+    }
+    .col{
+        padding: 0px 8px;
+        width: 100%;
+    }
+    .as-on{
+        padding: 0px 8px;
+    }
+    .day-range{
+        padding: 5px 8px;
+    }
+}

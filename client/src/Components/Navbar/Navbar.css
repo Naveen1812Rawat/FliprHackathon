@@ -1,0 +1,135 @@
+.navbar-container{
+    width: 100%;
+}
+.nav-components{
+    width: 30%;
+    margin-left: 25px;
+    padding: 50px 30px 10px;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-components select{
+    border-radius: 10px;
+    border: 1px solid #00000042;
+    margin-top: 0px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+
+.nav-components p{
+    color: rgb(142, 139, 139);
+    margin: 0px 25px;
+}
+.stock-exchange{
+    padding: 0px 30px;
+    cursor: pointer;
+    color: rgb(43, 42, 42);
+    margin: 0px 25px;
+}
+
+.stock-exchange h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.line1{
+    margin-left: 3%;
+    color: #000;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    width: 94%;
+}
+
+.nav-butn{
+    border-radius: 10px;
+    border: 1px solid #00000042;
+    padding: 0px 30px;
+}
+
+.nav-butn:active{
+    background-color: green;
+}
+
+.nav-butn:hover{
+    color: #fff;
+    background-color: green;
+}
+
+.heading-options{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 575px) and (max-width: 860px){
+    .nav-components{
+        width: 60%;
+        justify-content: space-between;
+    }
+    .nav-components select{
+        padding: 10px 20px;
+        /* margin: 0px 15px; */
+    }
+    .nav-components p{
+        padding: 10px 20px;
+        /* margin: 0px 15px; */
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1136px){
+    .nav-components select{
+        padding: 10px 20px;
+        /* margin: 0px 15px; */
+    }
+    .nav-components p{
+        padding: 10px 20px;
+        /* margin: 0px 15px; */
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 767px){
+    .nav-components select{
+        padding: 10px 20px;
+        /* margin: 0px 15px; */
+    }
+    .nav-components p{
+        padding: 10px 20px;
+        /* margin: 0px 15px; */
+    }
+}
+
+@media screen and (min-width: 440px) and (max-width: 599px){
+    .stock-exchange{
+        padding: 0px 10px;
+    }
+    .nav-components{
+        padding: 15px 20px;
+    }
+    .nav-components select{
+        /* margin: 0px 20px; */
+    }
+    .nav-components p{
+        /* margin: 0px 20px; */
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width: 440px){
+    .stock-exchange{
+        padding: 0px 0px;
+    }
+    .nav-components{
+        padding: 10px 0px;
+    }
+    .nav-components select{
+        border-radius: 5px;
+        /* margin: 0px 20px; */
+    }
+    .nav-components p{
+        /* margin: 0px 10px; */
+    }
+}
